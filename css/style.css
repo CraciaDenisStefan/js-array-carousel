@@ -3,3 +3,33 @@
     margin: 0;
     box-sizing: border-box;
  }
+ /* Inizio container */
+ .container{
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+    position: relative;
+    background-color: gray;
+ }
+ /* Inizio slide */
+ .slider, .slide, img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 40%;
+ }
+ /* Inizio pulsanti */
+ .sopra, .sotto{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+ }
+ .sotto{
+    bottom: 0; 
+    margin-bottom: 20px;  
+ }
+ .sopra{
+    top: 0;
+    margin-top: 20px;
+ }
